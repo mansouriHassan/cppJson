@@ -1,2 +1,2 @@
 # cppJson
-Parsing json file with cpp and rapid json
+Parsing json file with cpp and json cpp library
