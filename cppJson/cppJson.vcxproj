@@ -139,7 +139,12 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="..\..\jsoncpp\dist\jsoncpp.cpp" />
     <ClCompile Include="cppJson.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\jsoncpp\dist\json\json-forwards.h" />
+    <ClInclude Include="..\..\jsoncpp\dist\json\json.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
